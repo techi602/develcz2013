@@ -2,6 +2,10 @@
 	"name" : "Torrent helper",
 	"version" : "0.0.1",
 	"manifest_version" : 2,
+	"icons": {
+          "128": "icon.png"
+        },
+	"description": "Adds torrent link to IMDB movie",
 	"content_scripts" : [
 		{
 			"matches" : ["*://*.thepiratebay.se/search/*"],
